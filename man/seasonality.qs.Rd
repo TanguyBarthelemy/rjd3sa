@@ -16,10 +16,10 @@ in periods (positive value) or years (negative values).
 By default (\code{nyears = 0}), the entire sample is used.}
 }
 \value{
-A \code{c("JD3_TEST", "JD3")} object (see \code{\link[rjd3toolkit]{statisticaltest}} for details).
+A \code{c("JD3_TEST", "JD3")} object (see \code{\link[rjd3toolkit:statisticaltest]{rjd3toolkit::statisticaltest()}} for details).
 }
 \description{
-QS (modified seasonal Ljung-Box) test
+QS (modified seasonal Ljung-Box) test.
 }
 \examples{
 seasonality.qs(rjd3toolkit::ABS$X0.2.09.10.M, 12)

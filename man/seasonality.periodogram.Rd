@@ -16,13 +16,13 @@ in periods (positive value) or years (negative values).
 By default (\code{nyears = 0}), the entire sample is used.}
 }
 \value{
-A \code{c("JD3_TEST", "JD3")} object (see \code{\link[rjd3toolkit]{statisticaltest}} for details).
+A \code{c("JD3_TEST", "JD3")} object (see \code{\link[rjd3toolkit:statisticaltest]{rjd3toolkit::statisticaltest()}} for details).
 }
 \description{
 Periodogram Seasonality Test
 }
 \details{
-Tests on the sum of a periodogram at seasonal frequencies
+Tests on the sum of a periodogram at seasonal frequencies.
 }
 \examples{
 seasonality.periodogram(rjd3toolkit::ABS$X0.2.09.10.M, 12)
