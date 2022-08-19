@@ -98,7 +98,7 @@ seasonality.f<-function(data, period,
 #' "X12" Test On Seasonality
 #'
 #' @inheritParams seasonality.qs
-#' @param firstperiod
+#' @param firstperiod First period of the series (1-based)
 #' @param mul boolean indicating if the seasonal decomposition is multiplicative (`mul = TRUE`) or additive (`mul = FALSE`).
 #' @details Combined test on the presence of identifiable seasonality (see Ladiray and Quenneville, 1999).
 #' @export

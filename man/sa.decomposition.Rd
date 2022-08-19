@@ -17,8 +17,7 @@ sadecomposition(y, sa, t, s, i, mul)
   last_date = NULL,
   type_chart = c("sa-trend", "seas-irr"),
   caption = c(`sa-trend` = "Y, Sa, trend", `seas-irr` = "Sea., irr.")[type_chart],
-  colors = c(y = "#F0B400", t = "#1E6C0B", sa = "#155692", s = "#1E6C0B", i =
-    "#155692"),
+  colors = c(y = "#F0B400", t = "#1E6C0B", sa = "#155692", s = "#1E6C0B", i = "#155692"),
   ...
 )
 

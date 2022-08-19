@@ -11,6 +11,8 @@ seasonality.combined(data, period, firstperiod = 1, mul = T)
 
 \item{period}{Tested periodicity.}
 
+\item{firstperiod}{First period of the series (1-based)}
+
 \item{mul}{boolean indicating if the seasonal decomposition is multiplicative (\code{mul = TRUE}) or additive (\code{mul = FALSE}).}
 }
 \description{
